@@ -1,7 +1,14 @@
+@font-face {
+  font-family: starjedi;
+  src: url(./starjedi/Starjedi.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background-image: url('./images/sw-bg.jpg');
-  background-size: cover;
+  font-family: starjedi;
+  background: url("http://api.thumbr.it/whitenoise-2000x2000.png?background=131414ff&noise=707070&density=19&opacity=14");
+  background-repeat: repeat;
+  background-size: 100%;
+  overflow-x: hidden;
 }

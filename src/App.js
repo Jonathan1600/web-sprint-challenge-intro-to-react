@@ -29,12 +29,18 @@ const App = () => {
   };
 
   const MainBox = styled.div`
+    position: relative;
+    top: 30px;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    background-image: ;
+
+    .Header {
+      color: white;
+    }
   `;
   const Holder = styled.div`
     box-sizing: border-box;

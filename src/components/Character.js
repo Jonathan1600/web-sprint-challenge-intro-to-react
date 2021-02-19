@@ -34,8 +34,8 @@ const Info = styled.div`
     border-radius: 3px;
     transition: all 0.2s ease-in-out; 
   }*/
-  transition: all 0.2s ease-in-out;
-  animation: ${kf} 0.5s ease-in-out forwards;
+
+  animation: ${kf} 0.3s ease-in-out forwards;
 `;
 
 export default function Character(props) {
